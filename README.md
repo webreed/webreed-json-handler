@@ -1,7 +1,11 @@
-# webreed-json-handler [![Build Status](https://travis-ci.org/webreed/webreed-json-handler.svg?branch=master)](https://travis-ci.org/webreed/webreed-json-handler)
+# webreed-json-handler
 
 A plugin for [webreed](https://github.com/webreed/webreed) that provides support for
 decoding and encoding JSON content.
+
+[![Build Status](https://travis-ci.org/webreed/webreed-json-handler.svg?branch=master)](https://travis-ci.org/webreed/webreed-json-handler)
+[![Dependency Status](https://david-dm.org/webreed/webreed-json-handler.svg)](https://david-dm.org/webreed/webreed-json-handler)
+[![devDependency Status](https://david-dm.org/webreed/webreed-json-handler/dev-status.svg)](https://david-dm.org/webreed/webreed-json-handler#info=devDependencies)
 
 
 ## Contribution Agreement
