@@ -1,6 +1,6 @@
 {
   "name": "webreed-json-handler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "JSON encoding/decoding handler plugin for webreed.",
   "repository": {
     "type": "git",
