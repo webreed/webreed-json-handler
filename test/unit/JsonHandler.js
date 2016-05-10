@@ -5,7 +5,7 @@
 import given from "mocha-testdata";
 import should from "should";
 
-import {JsonHandler} from "../lib/JsonHandler";
+import {JsonHandler} from "../../lib/JsonHandler";
 
 
 describe("JsonHandler", function () {

@@ -7,8 +7,8 @@ import should from "should";
 
 import {Environment} from "webreed-core/lib/Environment";
 
-import setup from "../lib/setup";
-import {JsonHandler} from "../lib/JsonHandler";
+import setup from "../../lib/setup";
+import {JsonHandler} from "../../lib/JsonHandler";
 
 
 describe("#setup(env, options)", function () {
