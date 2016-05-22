@@ -10,13 +10,13 @@ import {Handler} from "webreed-core/lib/plugin/Handler";
  */
 export class JsonHandler implements Handler {
 
-  public decode(encodedData: any, context: Object): Promise<any> {
+  public decode(encodedData: any, context: any): Promise<any> {
     let str = encodedData.toString();
     let data = JSON.parse(str);
     return Promise.resolve(data);
   }
 
-  public encode(data: any, context: Object): Promise<any> {
+  public encode(data: any, context: any): Promise<any> {
     let str = JSON.stringify(data);
     return Promise.resolve(str);
   }
