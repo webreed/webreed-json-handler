@@ -1,11 +1,13 @@
 // Copyright (c) Rotorz Limited. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root.
 
+"use strict";
 
-import given from "mocha-testdata";
-import should from "should";
 
-import {JsonHandler} from "../../lib/JsonHandler";
+const given = require("mocha-testdata");
+const should = require("should");
+
+const JsonHandler = require("../../lib/JsonHandler").JsonHandler;
 
 
 describe("JsonHandler", function () {
